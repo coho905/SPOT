@@ -1,6 +1,6 @@
 # SPOT
-## SPeech tO Terminal (SPOT)
-**Speak commands directly to your terminal**
+## SPeak tO Terminal (SPOT)
+**Speech-based commands directly to your terminal**
 <br />~~Remembering hundreds of terminal commands on various operating systems~~ -> Use natural language (and your voice) to execute command line instructions!
 
 ## How To Set Up
