@@ -21,7 +21,7 @@
 1. Allow for text inputs instead of just voice
 2. Customize reset and stop words
 3. Look into huggingface API calls (free) instead of OpenAI (~$5 a year)
-4. Allow for speaking instructions instead of typing
+4. Allow for speaking instructions instead of text in terminal
 5. Enable forced execution
 6. Make an option for an infinite loop (until final ending word)
 
