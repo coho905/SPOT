@@ -6,7 +6,9 @@ import subprocess
 from gtts import gTTS
 
 # TODO check if env variable already exits + input yours here if not
-os.environ['OPENAI_API_KEY'] = 'YOUR API KEY HERE'
+api_key = os.getenv('OPENAI_API_KEY', None)
+if api_key == None:
+    os.environ['OPENAI_API_KEY'] = 'YOUR API KEY HERE'
 client = OpenAI()
 print('What is your command?')
 command = ""
@@ -84,6 +86,7 @@ else:
     if user == 1:
         result = subprocess.run(completion.choices[0].message.content.split(" "), capture_output=True, text=True, shell=True)
         print(result.stdout)
+        # TODO write errors to error file?
     print('executed')
 
 #print('done')
