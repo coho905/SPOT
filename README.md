@@ -5,7 +5,8 @@
 
 ## How To Set Up
 1. ```bash
-   pip install -r requirements.txt```
+   pip install -r requirements.txt
+   ```
 2. Get an OpenAI API key (and plug it in): <=$5 for a years amount the last I checked
 3. ```bash
    python[3] main.py
